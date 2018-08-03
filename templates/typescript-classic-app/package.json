@@ -1,0 +1,14 @@
+{
+  "name": "typescript-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/titanium": "^7.1.0",
+    "typescript": "^3.0.1"
+  }
+}
