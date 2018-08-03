@@ -11,3 +11,6 @@ tmp
 .settings
 Thumbs.db
 plugins/ti.alloy
+
+# Generated JavaScript files
+app/**/*.js
