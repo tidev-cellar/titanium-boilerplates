@@ -36,7 +36,6 @@
 	top: 20,
 	left: 20,
 	right: 20,
-	height: Ti.UI.SIZE,
 	layout: 'horizontal'
 }
 

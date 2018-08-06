@@ -49,9 +49,6 @@
     </manifest>
   </android>
   <modules>
-    <module platform="commonjs">ti.cloud</module>
-    <module platform="android">com.appcelerator.apm</module>
-    <module platform="iphone">com.appcelerator.apm</module>
   </modules>
   <deployment-targets>
     <target device="android">true</target>
