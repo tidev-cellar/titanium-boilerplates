@@ -38,12 +38,15 @@
         <key>UIStatusBarHidden</key>
         <false/>
         <key>UIStatusBarStyle</key>
-        <string>UIStatusBarStyleDefault</string>
+        <string>UIStatusBarStyleLightContent</string>
       </dict>
     </plist>
   </ios>
   <android
     xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest>
+      <application android:theme="@style/TitaniumTypescript"/>
+    </manifest>
   </android>
   <modules>
     <module platform="commonjs">ti.cloud</module>

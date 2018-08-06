@@ -9,7 +9,7 @@ exports.init = (logger, config, cli) => {
     priority: 900, // explicitly lower priority to make sure this hooks runs before the Alloy compiler
     post: (builder, callback) => {
       const tscPath = path.resolve(__dirname, '..', 'node_modules', '.bin', 'tsc')
-      const args = [tscPath, '-p', 'tsconfig.json'];
+      const args = [ tscPath, '-p', 'tsconfig.json', '--listEmittedFiles' ];
       logger.info('Compiling TypeScript files');
       logger.trace(`Executing: node ${args.join(' ')}`);
       const child = spawn('node', args, {
