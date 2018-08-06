@@ -11,11 +11,12 @@ Clone this repo, navigate to the project you want to try and run it!
 For example:
 
 ```bash
-cd templates/
-titanium build -p [ios|android]
+cd templates/typescript-alloy-app
+appc new --import
+appc run -p [ios|android]
 ```
 
-Some projects may user other commands, please check the individual README files in each template.
+Some projects may use other commands, please check the individual README files in each template for project specific instructions.
 
 ## Used tools
 
@@ -26,7 +27,7 @@ See the list below to see for which tools this repo already contains examples an
 - [ ] Karma
 - [ ] Appium
 
-For a quick overview about the individual templates, what tools they use and what they do in general check the following listing:
+For a quick overview about the individual templates, what tools they use and what they do in general refer to the following table.
 
 | Name | Tools | Descriptions | Readme |
 | --- | --- | --- | --- |
