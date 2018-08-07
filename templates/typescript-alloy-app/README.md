@@ -7,8 +7,9 @@
 Navigate to this directory and run
 
 ```bash
-appc new --import
-appc run -p [android|ios]
+npm i # Install dependencies
+appc new --import # Import the project to your organization
+appc run -p [android|ios] # Run the app
 ```
 
 # How it works
