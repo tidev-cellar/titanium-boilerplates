@@ -9,8 +9,8 @@ const window = Ti.UI.createWindow({
 
 const header = Ti.UI.createView({
   layout: 'vertical',
-	backgroundColor: '#294E80',
-	height: 200
+  backgroundColor: '#294E80',
+  height: 200
 });
 header.add(Ti.UI.createImageView({
   top: 60,
@@ -19,7 +19,7 @@ header.add(Ti.UI.createImageView({
 }));
 header.add(Ti.UI.createLabel({
   top: 20,
-	color: '#fff'
+  color: '#fff'
 }));
 window.add(header);
 
@@ -29,7 +29,7 @@ const nameInput = Ti.UI.createTextField({
   hintText: 'Enter your name'
 });
 nameInput.addEventListener('change', e => {
-  greetingLabel.text = greeter.sayHello(e.value)
+  greetingLabel.text = greeter.sayHello(e.value);
 });
 window.add(nameInput);
 
@@ -39,8 +39,8 @@ window.add(greetingLabel);
 const containerView = Ti.UI.createView({
   layout: 'horizontal',
   top: 20,
-	left: 20,
-	right: 20
+  left: 20,
+  right: 20
 });
 containerView.add(createButton('-', { right: 10 }, decrement));
 containerView.add(createButton('+', { left: 10 }, increment));
@@ -55,8 +55,8 @@ function createButton(title: string, options: any, callback: () => void) {
   Object.assign(buttonOptions, {
     width: 100,
     backgroundColor: '#ddd',
-    title: title
-  }, options)
+    title
+  }, options);
   const button = Ti.UI.createButton(buttonOptions);
   button.addEventListener('click', callback);
   buttonWrapper.add(button);
@@ -65,29 +65,29 @@ function createButton(title: string, options: any, callback: () => void) {
 }
 
 function decrement(): void {
-	greeter.decrement();
-	updateGreeting(nameInput.value);
+  greeter.decrement();
+  updateGreeting(nameInput.value);
 }
 
 function increment(): void {
-	greeter.increment();
-	updateGreeting(nameInput.value);
+  greeter.increment();
+  updateGreeting(nameInput.value);
 }
 
 function updateGreeting(name: string) {
-	let greeting = '';
-	if (name === '') {
-		greeting = 'Please enter your name first!';
-	} else {
-		greeting = greeter.sayHello(name);
-	}
-	greetingLabel.text = greeting;
+  let greeting = '';
+  if (name === '') {
+    greeting = 'Please enter your name first!';
+  } else {
+    greeting = greeter.sayHello(name);
+  }
+  greetingLabel.text = greeting;
 }
 
 if (Ti.Platform.osname === 'android') {
-	window.activity.onStart = () => {
-		window.activity.actionBar.hide();
-	}
+  window.activity.onStart = () => {
+    window.activity.actionBar.hide();
+  };
 }
 
 window.open();

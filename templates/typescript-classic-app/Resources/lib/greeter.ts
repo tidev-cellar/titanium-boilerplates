@@ -1,5 +1,5 @@
 export default class EnthusiasticGreeter {
-  enthusiasm: number;
+  private enthusiasm: number;
 
   constructor(initialEnthusiasm: number = 5) {
     this.enthusiasm = initialEnthusiasm;
@@ -9,17 +9,17 @@ export default class EnthusiasticGreeter {
     return Array(this.enthusiasm + 1).join('!');
   }
 
-  increment() {
+  public increment() {
     this.enthusiasm++;
   }
 
-  decrement() {
+  public decrement() {
     if (this.enthusiasm > 1) {
       this.enthusiasm--;
     }
   }
 
-  sayHello(name: string) {
+  public sayHello(name: string) {
     return `Hello ${name}${this.exclamationMarks}`;
   }
 }
