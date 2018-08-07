@@ -2,6 +2,8 @@
 
 > Use TypeScript to develop your Alloy based Titanium app.
 
+A very simple greeting example app written in Alloy and TypeScript.
+
 # Try it out
 
 Navigate to this directory and run
@@ -21,6 +23,7 @@ appc run -p [android|ios]
 - [x] TypeScript support for your Alloy app.
 - [x] A `tsconfig.json` prepared to work with Alloy.
 - [x] Linting setup in `tslint.json`. Run `npm run lint` to lint all our TypeScript files inside the `app` folder.
+- [x] Full typings for the `Ti` namespace.
 - [x] Typings for `Alloy` and the `$` controller shorthand. Backbone models and collections do not have typings yet as their default typings require jQuery which conflicts with Alloy's `$` controller shorthand.
 - [x] Visual Studio Code workspace settings to hide `.js` files if a matching `.ts` file is present.
 
