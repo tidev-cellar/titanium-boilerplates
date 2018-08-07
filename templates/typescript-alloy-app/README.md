@@ -1,6 +1,6 @@
 # typescript-alloy-app
 
-> Use TypeScript to develop your Alloy based Titanium app.
+> Use TypeScript to develop your Alloy based Axway Titanium app.
 
 A very simple greeter example app written in Alloy and TypeScript.
 
