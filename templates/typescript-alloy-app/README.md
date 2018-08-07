@@ -2,7 +2,7 @@
 
 > Use TypeScript to develop your Alloy based Titanium app.
 
-A very simple greeting example app written in Alloy and TypeScript.
+A very simple greeter example app written in Alloy and TypeScript.
 
 # Try it out
 
