@@ -12,7 +12,14 @@ For example:
 
 ```bash
 cd templates/typescript-alloy-app
+
+# Install dependencies
+npm i
+
+# Import the project to your organization
 appc new --import
+
+# Run the example
 appc run -p [ios|android]
 ```
 
@@ -31,8 +38,8 @@ For a quick overview about the individual templates, what tools they use and wha
 
 | Name | Tools | Descriptions | Readme |
 | --- | --- | --- | --- |
-| [typescript-alloy-app](templates/typescript-app) | TypeScript | Use TypeScript to develop your Alloy based Titanium app | [README](templates/typescript-alloy-app/README.md) |
-| [typescript-classic-app](templates/typescript-app) | TypeScript | Use TypeScript to develop your classic Titanium app | [README](templates/typescript-classic-app/README.md) |
+| [typescript-alloy-app](templates/typescript-alloy-app) | TypeScript | Use TypeScript to develop your Alloy based Titanium app | [README](templates/typescript-alloy-app/README.md) |
+| [typescript-classic-app](templates/typescript-classic-app) | TypeScript | Use TypeScript to develop your classic Titanium app | [README](templates/typescript-classic-app/README.md) |
 
 ## Contributing
 
