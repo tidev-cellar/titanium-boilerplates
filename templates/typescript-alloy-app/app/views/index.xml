@@ -1,0 +1,18 @@
+<Alloy>
+	<Window class="win">
+		<View class="header">
+			<ImageView class="ts-logo" image="/images/ts-logo.png"></ImageView>
+			<Label class="header-sub">Enthusiastic Greeter Example</Label>
+		</View>
+		<TextField id="name" hintText="Enter your name"></TextField>
+		<Label id="greeting"></Label>
+		<View class="container">
+			<View class="button-wrapper">
+				<Button onClick="decrement" right="10">-</Button>
+			</View>
+			<View class="button-wrapper">
+				<Button onClick="increment" left="10">+</Button>
+			</View>
+		</View>
+	</Window>
+</Alloy>

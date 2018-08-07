@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "*",
+        "app/lib/*"
+      ]
+    },
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es2015",
+      "es2015.iterable"
+    ],
+    "downlevelIteration": true,
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "app/**/*"
+  ]
+}

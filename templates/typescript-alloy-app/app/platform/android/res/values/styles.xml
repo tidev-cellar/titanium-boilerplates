@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TitaniumTypescript" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/tsBlue</item>
+        <item name="colorPrimaryDark">@color/tsDarkBlue</item>
+        <item name="colorAccent">@color/tsOrange</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+	</style>
+</resources>

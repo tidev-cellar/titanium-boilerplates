@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tsBlue">#294E80</color>
+    <color name="tsDarkBlue">#152740</color>
+    <color name="tsOrange">#FFA700</color>
+    <color name="windowBackground">#fff</color>
+</resources>

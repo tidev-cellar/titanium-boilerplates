@@ -1,0 +1,50 @@
+'.win': {
+	backgroundColor:'white',
+	layout: 'vertical'
+}
+
+'.header': {
+	layout: 'vertical',
+	backgroundColor: '#294E80',
+	height: 200
+}
+
+'.ts-logo': {
+	top: 60,
+	height: 50
+}
+
+'.header-sub': {
+	top: 20,
+	color: '#fff'
+}
+
+'#name': {
+	top: 40,
+	left: 20
+}
+
+'#greeting': {
+	top: 20
+}
+
+'Label': {
+	color: '#000'
+}
+
+'.container': {
+	top: 20,
+	left: 20,
+	right: 20,
+	layout: 'horizontal'
+}
+
+'.button-wrapper': {
+	width: '50%',
+	height: Ti.UI.SIZE
+}
+
+'Button': {
+	width: 100,
+	backgroundColor: '#ddd'
+}

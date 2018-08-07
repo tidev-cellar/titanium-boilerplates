@@ -1,0 +1,11 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "interface-name": [true, "never-prefix"],
+    "member-ordering": [true, { "order": "fields-first" }],
+    "object-literal-sort-keys": false,
+    "quotemark": [true, "single"],
+    "trailing-comma": false
+  }
+}
