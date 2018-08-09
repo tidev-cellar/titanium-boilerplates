@@ -1,10 +1,8 @@
-# titanium-boilerplates
+# Titanium Boilerplates
 
 > Boilerplate projects for your favorite development tools used together with Axway Titanium
 
-> :warning: **WORK IN PROGRESS**. We are currently collecting ideas and work on the first templates. Check back soon for more examples!
-
-## Getting started
+## Getting Started
 
 Clone this repo, navigate to the project you want to try and run it!
 
@@ -25,7 +23,7 @@ appc run -p [ios|android]
 
 Some projects may use other commands, please check the individual README files in each template for project specific instructions.
 
-## Used tools
+## Used Tools
 
 See the list below to see for which tools this repo already contains examples and which tools are planned for.
 
