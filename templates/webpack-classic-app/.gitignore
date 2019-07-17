@@ -1,0 +1,8 @@
+# Titanium build directory
+build/
+
+# Node modules
+node_modules/
+
+# Generated files from Webpack
+Resources/
