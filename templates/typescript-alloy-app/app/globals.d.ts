@@ -129,7 +129,7 @@ declare interface AlloyInterface {
   /**
    * true if the current device is a tablet.
    */
-  isTabled: boolean
+  isTablet: boolean
 
   /**
    * Factory method for instantiating a Backbone collection of model objects. Creates and returns a collection for holding the named type of model objects.
